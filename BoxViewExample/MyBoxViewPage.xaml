@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Page Beginn-->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BoxViewExample.MyBoxViewPage"
+             Title="MyBoxViewPage">
+    <!-- Padding=""Right,Top,Left,Bottom-->
+    <!-- Layout Beginn-->
+    <VerticalStackLayout Padding="0,30,0,0">
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"  FontSize="20"/>
+        
+        <BoxView Color="AliceBlue"  HeightRequest="30" WidthRequest="150"/>
+        <Label  Padding="10" >
+            Lorem ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy eirmod
+            tempor invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. At vero eos et accusam 
+            et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata
+        </Label>
+        <BoxView Color="Azure"  HeightRequest="70"/>
+        <Label  Padding="10">
+            sanctus est Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+            et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </Label>
+    </VerticalStackLayout>
+    <!-- Layout End-->
+</ContentPage>
+<!-- Page End-->
